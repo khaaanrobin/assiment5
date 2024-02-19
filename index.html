@@ -8,6 +8,8 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 <style>
  
@@ -170,7 +172,7 @@
         </div>
         <div>
 
-          <div class="flex justify-center bg-[#eaebeb] mt-11">
+          <div class="flex justify-center bg-[#eaebeb] mt-11 pb-6">
             <div class="w-[1000px] bg-white flex">
               <div class="">
                 <div>
@@ -250,7 +252,7 @@
                       <p  class="font-bold">BDT <span id="discount">0</span></p>
                     </div>
                     <div class="flex justify-center  ml-5 mt-6">
-                      <button  class="btn btn-wide bg-[#1DD100] text-white">Next</button>
+                      <button  id="nxt" class="btn mb-2 btn-wide bg-[#1DD100] text-white">Next</button>
                     </div>
                     
                   </div>
@@ -285,4 +287,28 @@
 
     <script src="index.js"></script>
 </body>
+<footer class="mt-10">
+  <footer class="footer p-10 bg-neutral text-neutral-content">
+    <nav>
+      <h6 class="footer-title">Services</h6> 
+      <a class="link link-hover">Branding</a>
+      <a class="link link-hover">Design</a>
+      <a class="link link-hover">Marketing</a>
+      <a class="link link-hover">Advertisement</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title">Company</h6> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title">Legal</h6> 
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </nav>
+  </footer>
+</footer>
 </html>

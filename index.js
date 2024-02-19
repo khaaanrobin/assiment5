@@ -64,6 +64,7 @@ btnname.style.backgroundColor = '#1DD100'
              discountPrice.innerText = grandTotal
              const gayeb = document.getElementById('gayeb').style.display = 'none'
         }
+     
 
         if(newValue === "Couple20"){
             const pricediscount = document.getElementById('discount')
@@ -72,11 +73,22 @@ btnname.style.backgroundColor = '#1DD100'
         pricediscount.innerText = grandtotal2;
         const gayeb = document.getElementById('gayeb').style.display = 'none'
         }
+       
     })
         
 }
  
 }
+const alart = document.getElementById('nxt').addEventListener('click', function(){
+    Swal.fire({
+        title: "SUCCESS",
+        text: "Thank you for Booking Our Bus Seats.We are working hard to find the best service and deals for you.",
+        icon: "success",
+       
+      })
+      
+          
+})
 
 
 
